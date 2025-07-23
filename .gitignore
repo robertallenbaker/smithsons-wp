@@ -1,0 +1,30 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/*        # Ignore all plugins (except custom ones)
+!/wp-content/plugins/your-plugin-name/  # Keep your custom plugin
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/languages/
+/wp-content/uploads/         # Uploaded media (large, environment-specific)
+
+/index.php
+/license.txt
+/readme.html
+/wp-config.php               # Local config (track wp-config-sample.php instead)
+
+/*.log
+*.sql
+*.tar.gz
+*.zip
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# Composer / npm
+vendor/
+node_modules/
